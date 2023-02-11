@@ -53,3 +53,10 @@ def arb_mean(*args):
 
 
 arb_mean(1,2,3,4,5)
+
+# arb_longest_string - Accepts any number of strings and returns the longest one.
+
+def arb_longest_string(*strings):
+   return max(strings, key=len)
+
+print(arb_longest_string("cat","dog","gerbil"))
